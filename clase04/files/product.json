@@ -1,0 +1,20 @@
+[
+	{
+		"title": "Reloj deportivo",
+		"description": "Marca Queen, ese regalo especial, Oferta del mes del RELOJ, compralo hasta en 12 cuotas.",
+		"price": 1500,
+		"thumbnail": "reloj.jpg",
+		"code": "100",
+		"stock": 50,
+		"id": 1
+	},
+	{
+		"title": "Anillo Bronce",
+		"description": "Anillo de Bronce, compralo hasta en 12 cuotas.",
+		"price": 3500,
+		"thumbnail": "imagen.jpg",
+		"code": "200",
+		"stock": 20,
+		"id": 2
+	}
+]

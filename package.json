@@ -1,0 +1,21 @@
+{
+  "name": "backend_desafios",
+  "version": "1.0.0",
+  "description": "Alumno: Carlos Di Blasi\r Tutor: Nicolas Conil\r Profesor: Alex Pinaida Simbaña",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlyCoderHouse/Backend_Desafios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharlyCoderHouse/Backend_Desafios/issues"
+  },
+  "homepage": "https://github.com/CharlyCoderHouse/Backend_Desafios#readme"
+}
