@@ -1,0 +1,92 @@
+[
+	{
+		"title": "Anillo circular Diamante",
+		"description": "Anillo de plata y diamantes, compralo hasta en 12 cuotas.",
+		"price": 1500,
+		"thumbnail": "Anillo1_.png",
+		"code": "100",
+		"stock": 30,
+		"id": 1
+	},
+	{
+		"title": "Anillo Bronce",
+		"description": "Anillo de Bronce, compralo hasta en 12 cuotas.",
+		"price": 3500,
+		"thumbnail": "reloj.jpg",
+		"code": "200",
+		"stock": 30,
+		"id": 2
+	},
+	{
+		"title": "Anillo Mariposas",
+		"description": "Anillo de mariposas y detalles en color violeta, compralo hasta en 12 cuotas.",
+		"price": 5500,
+		"thumbnail": "imagen.jpg",
+		"code": "300",
+		"stock": 18,
+		"id": 3
+	},
+	{
+		"title": "Smart Watch Time Cuadrado",
+		"description": "Smart Watch con compatibilidad Android, compralo hasta en 12 cuotas.",
+		"price": 8500,
+		"thumbnail": "reloj_dam_a.png",
+		"code": "400",
+		"stock": 30,
+		"id": 4
+	},
+	{
+		"title": "Smart Watch Time Circular",
+		"description": "Smart Watch circular, compatibilidad Android/Ios, compralo hasta en 12 cuotas",
+		"price": 7500,
+		"thumbnail": "reloj.jpg",
+		"code": "500",
+		"stock": 30,
+		"id": 5
+	},
+	{
+		"title": "Reloj digital niños",
+		"description": "El primer reloj para los más pequeños, compralo hasta en 12 cuotas.",
+		"price": 999,
+		"thumbnail": "reloj_nino_a.png",
+		"code": "600",
+		"stock": 18,
+		"id": 6
+	},
+	{
+		"title": "Dije simple con cadena",
+		"description": "Dije simple con cadena a elección, compralo hasta en 3 cuotas.",
+		"price": 750,
+		"thumbnail": "reloj.jpg",
+		"code": "700",
+		"stock": 30,
+		"id": 7
+	},
+	{
+		"title": "Dije especial Piedras",
+		"description": "Dije con piedras preciosas de diferentes colores, compralo hasta en 3 cuotas.",
+		"price": 2400,
+		"thumbnail": "Dije5_a.png",
+		"code": "800",
+		"stock": 30,
+		"id": 8
+	},
+	{
+		"title": "Aros personalizados Corazón",
+		"description": "Aros que no encontraras en otro lado, compralo hasta en 3 cuotas.",
+		"price": 800,
+		"thumbnail": "Aros1_a.png",
+		"code": "900",
+		"stock": 18,
+		"id": 9
+	},
+	{
+		"title": "Cartera Marrón Boutique",
+		"description": "Marca Queen, ese regalo especial, Oferta del mes del RELOJ, compralo hasta en 12 cuotas.",
+		"price": 5300,
+		"thumbnail": "marroqui2_a.png",
+		"code": "1000",
+		"stock": 30,
+		"id": 10
+	}
+]
