@@ -8,23 +8,19 @@ app.use(urlencoded({extended: true}));
 //Creamos la instancia de la clase
 const ProductManager = new productManager('../files/product.json');
 
-// OBTENGO TODOS LOS PRODUCTOS QUE HAY EN EL ARCHIVO
-const products = await ProductManager.getProducts();
-
 //Ruta raíz presentación
 app.get("/", (req, res) => {
     res.send(`<h1 style="color:darkblue;">Bienvenidos al servidor express</h1> <br>
     <h2 style="color:darkblue;">Desafío de productos</h2>`)
 });
 
-//Ruta /products muestra todos los productos
-app.get("/products", (req, res) => {
-    res.send(products)
-})
-
-//Ruta /products con limite de 5
-app.get('/products-limit', async (req, res) => {
+//Ruta /products + query limits
+app.get("/products", async (req, res) => {
+    // OBTENGO TODOS LOS PRODUCTOS QUE HAY EN EL ARCHIVO
+    const products = await ProductManager.getProducts();
+    //leo el parametro por req.query
     const { limit } = req.query;
+
     const nuevoArreglo = [];
 
     if (limit){
@@ -33,18 +29,18 @@ app.get('/products-limit', async (req, res) => {
         }
         res.send(nuevoArreglo)
     } else {
-        res.send('No se reconoce un parámetro válido');
+        res.send(products)
     }
 })
 
 //Ruta /products/:id Busco producto por ID 
-app.get('/products/:id', (req,res) => {
+app.get('/products/:id', async (req,res) => {
         //Leo el ID del parametro 
-        const { id } = req.params;
+        const id = Number(req.params.id);
         // BUsco el ID en el arreglo
-        const product = products.find((product) => product.id === Number(id));
+        const productById = await ProductManager.getProductById(id);
         //muestro resultado
-        product ? res.send(product) : res.send('Id de producto NO encontrado')
+        productById===-1 ? res.send(`El producto con id ${id} no existe!`) : res.send(productById);
 });
 
 app.listen(8080, () => console.log("escuchando port 8080"));
